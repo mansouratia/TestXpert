@@ -72,12 +72,10 @@ mvn exec:java -Dexec.mainClass="MainGUI"
 ## 📁 Documentation
 
 See detailed project documentation in the [`docs/`](Docs) folder:
-- [Project Plan](docs/PROJECT_PLAN.md)
+- [Project Plan](Docs/PROJECT_PLAN.md)
 - [Requirements](Docs/REQUIREMENTS.md)
-- [System Design](docs/SYSTEM_DESIGN.md)
-- [Testing & QA](docs/TESTING.md)
-- [User Manual](docs/USER_MANUAL.md)
-
+- [System Design](Docs/SYSTEM_DESIGN.md)
+- [Testing & QA](Docs/TESTING.md)
 ## 👤 Author
 
 - Mnasour
