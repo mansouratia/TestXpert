@@ -78,8 +78,8 @@ See detailed project documentation in the [`docs/`](Docs) folder:
 - [Testing & QA](Docs/TESTING.md)
 ## 👤 Author
 
-- Mnasour
--Youssef
--Mahmoud
--Ahmed
-- DEBI
+- Mnasour Atia
+-Youssef Nasser
+-Mahmoud Galal
+-Ahmed Shawqy
+- DEBI (Digital Egypt Builders Initiative)
