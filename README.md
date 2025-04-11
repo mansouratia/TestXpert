@@ -83,3 +83,8 @@ See detailed project documentation in the [`docs/`](Docs) folder:
 -Mahmoud Galal
 -Ahmed Shawqy
 - DEBI (Digital Egypt Builders Initiative)
+
+-## 📁 Drive link
+(all files uploaded to this drive link)
+https://drive.google.com/drive/folders/1Q06cVeiZAfvcEcMom9--fJL-i14xjIhr?usp=sharing
+
