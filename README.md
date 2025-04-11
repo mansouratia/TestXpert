@@ -71,9 +71,9 @@ mvn exec:java -Dexec.mainClass="MainGUI"
 
 ## 📁 Documentation
 
-See detailed project documentation in the [`docs/`](docs/) folder:
+See detailed project documentation in the [`docs/`](Docs) folder:
 - [Project Plan](docs/PROJECT_PLAN.md)
-- [Requirements](docs/REQUIREMENTS.md)
+- [Requirements](Docs/REQUIREMENTS.md)
 - [System Design](docs/SYSTEM_DESIGN.md)
 - [Testing & QA](docs/TESTING.md)
 - [User Manual](docs/USER_MANUAL.md)
