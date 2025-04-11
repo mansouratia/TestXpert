@@ -1,23 +1,87 @@
+# TestXpert
 
-# TestXpert - E-Commerce Testing Project
+**TestXpert** is a Java-based desktop application for generating and executing Selenium test cases through an intuitive graphical user interface (GUI). It streamlines test automation by allowing users to define test steps in plain language, generate executable Selenium code, and view live test execution with error handling and reporting.
 
-## 📌 Project Overview
-This project focuses on testing an online shopping platform, ensuring its **functionality, security, and performance** using manual and automated testing methodologies.
+## 🚀 Features
 
-## 📌 Features
-- 🛠 **Functional Testing**: Login, search, cart, checkout, and order tracking.
-- ⚡ **Performance Testing**: Load handling with JMeter.
-- 🔐 **Security Testing**: Protecting user data with OWASP ZAP.
-- 🤖 **Automation**: Selenium for UI testing.
+- GUI for writing test steps
+- Excel-driven keyword-to-Selenium translation
+- Test case code generation (Java + Selenium)
+- Automated test execution using ChromeDriver
+- Screenshot capture on failure
+- Test report generation
 
-## 📌 Tools Used
-- Selenium 🖥️
-- Postman 📡
-- JMeter ⚡
-- OWASP ZAP 🔐
-- Jira 📋
+## 📂 Project Structure
 
-## 📌 How to Use
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/mansouratia/TestXpert.git
+```
+TestXpert/
+├── src/main/java/         # Source code
+├── resources/             # Excel translation map
+├── generated/             # Test output and screenshots
+├── docs/                  # Project documentation
+├── pom.xml                # Maven build file
+└── README.md
+```
+
+## 🧱 Technologies Used
+
+- Java (Swing for GUI)
+- Selenium WebDriver
+- Apache POI (Excel integration)
+- Maven (build automation)
+
+## 💻 Installation
+
+### Prerequisites
+
+- Java JDK 11+
+- Maven 3+
+- Chrome Browser
+- ChromeDriver (path should be configured in system)
+
+### Steps
+
+```bash
+git clone https://github.com/yourusername/TestXpert.git
+cd TestXpert
+mvn clean install
+```
+
+### To Run:
+
+You can run the program from your IDE or by compiling:
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="MainGUI"
+```
+
+> Make sure `commands.xlsx` is in the correct path for translation.
+
+## 📊 Sample Output
+
+- `generated_test_steps.txt`: Selenium code generated from input
+- `test_report.txt`: Summary of test execution
+- `screenshot_fail_*.png`: Screenshots of failures
+
+## 🧪 Testing
+
+- Manual and automated testing included
+- Screenshots and logs are captured for verification
+
+## 📁 Documentation
+
+See detailed project documentation in the [`docs/`](docs/) folder:
+- [Project Plan](docs/PROJECT_PLAN.md)
+- [Requirements](docs/REQUIREMENTS.md)
+- [System Design](docs/SYSTEM_DESIGN.md)
+- [Testing & QA](docs/TESTING.md)
+- [User Manual](docs/USER_MANUAL.md)
+
+## 👤 Author
+
+- Mnasour
+-Youssef
+-Mahmoud
+-Ahmed
+- DEBI
