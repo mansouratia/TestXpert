@@ -1,19 +1,6 @@
 
 # 📋 Requirements Specification
 
-## 👥 Stakeholder Analysis
-
-| Stakeholder        | Role                                  | Needs                                      |
-|--------------------|----------------------------------------|---------------------------------------------|
-| Developer (Student)| Creator of TestXpert                   | Simple, flexible test automation solution   |
-| QA Engineers       | End users of the tool                  | Easy test case creation and execution       |
-| Instructors        | Academic reviewers                     | Well-documented, functional implementation  |
-
-## 📖 User Stories
-
-- As a **QA engineer**, I want to define test steps in simple language so I can automate testing without coding.
-- As a **developer**, I want to convert Excel commands into Selenium actions so I can automate UI testing.
-- As a **tester**, I want to view screenshots on failure so I can easily identify broken test cases.
 
 ## ✅ Functional Requirements
 
