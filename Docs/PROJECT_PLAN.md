@@ -8,14 +8,14 @@
 
 ## 📈 Project Timeline
 
-| Phase                           | Start Date  | End Date    |
-|--------------------------------|-------------|-------------|
-| Project Planning & Management  | 2/24/2025   | 3/21/2025   |
-| Literature Review              | 2/24/2025   | 3/21/2025   |
-| Requirements Gathering         | 2/24/2025   | 3/21/2025   |
-| System Analysis & Design       | 2/24/2025   | 3/21/2025   |
-| Implementation                 | 4/11/2025   | 5/9/2025    |
-| Final Presentation & Reports   | 4/11/2025   | 5/9/2025    |
+| Phase                          | Start Date  |
+|--------------------------------|-------------|
+| Project Planning & Management  | 24/2/2025   | 
+| Literature Review              | 24/2/2025   | 
+| Requirements Gathering         | 24/2/2025   | 
+| System Analysis & Design       | 24/2/2025   | 
+| Implementation                 | 11/4/2025   |
+| Final Presentation & Reports   | 11/4/2025   | 
 
 ---
 
@@ -23,19 +23,11 @@
 
 | Milestone               | Deliverable                             | Due Date   |
 |------------------------|------------------------------------------|------------|
-| Project Plan           | Planning document with timeline          | 3/21/2025  |
-| Requirements Complete  | Requirements & use cases finalized       | 3/21/2025  |
-| Design Phase Complete  | Architecture diagrams & database design  | 3/21/2025  |
-| Initial Implementation | GUI and code generation components       | 4/11/2025  |
-| Final Version          | Working product, documentation, reports  | 5/9/2025   |
-
----
-
-## 🧑‍🤝‍🧑 Task Assignment & Roles
-
-| Team Member   | Role                      | Responsibilities                          |
-|---------------|---------------------------|-------------------------------------------|
-| Your Name     | Developer / Designer      | GUI design, Selenium integration, testing |
+| Project Plan           | Planning document with timeline          |24/2/2025   |
+| Requirements Complete  | Requirements & use cases finalized       | 24/2/2025  |
+| Design Phase Complete  | Architecture diagrams & database design  | 24/2/2025  |
+| Initial Implementation | GUI and code generation components       | 11/4/2025  |
+| Final Version          | Working product, documentation, reports  | 11/4/2025  |
 
 ---
 
