@@ -78,7 +78,7 @@ See detailed project documentation in the [`docs/`](Docs) folder:
 - [Testing & QA](Docs/TESTING.md)
 ## 👤 Author
 
-- Mnasour Atia
+- Manasour Atia
 -Youssef Nasser
 -Mahmoud Galal
 -Ahmed Shawqy
