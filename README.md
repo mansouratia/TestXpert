@@ -16,7 +16,6 @@
 ```
 TestXpert/
 ├── src/main/java/         # Source code
-├── resources/             # Excel translation map
 ├── generated/             # Test output and screenshots
 ├── docs/                  # Project documentation
 ├── pom.xml                # Maven build file
