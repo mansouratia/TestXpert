@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                                    <?import javafx.scene.control.*?>
+                                    <?import javafx.scene.layout.*?>
+                                    <VBox spacing="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+                                          fx:controller="gui.MainController" style="-fx-padding: 10;">
+                                        <HBox spacing="5">
+                                            <Label text="URL:"/>
+                                            <TextField fx:id="urlField"/>
+                                            <Label text="Locator Type:"/>
+                                            <ComboBox fx:id="locatorTypeBox"/>
+                                            <Label text="Locator Value:"/>
+                                            <TextField fx:id="locatorValueField"/>
+                                            <Label text="Action:"/>
+                                            <ComboBox fx:id="actionBox" promptText="Functional Action"/>
+                                            <ComboBox fx:id="performanceTestBox" promptText="Performance Test"/>
+                                            <ComboBox fx:id="securityTestBox" promptText="Security Test"/>
+                                            <Label text="Input Data:"/>
+                                            <TextField fx:id="inputDataField"/>
+                                            <Button fx:id="addButton" text="Add" onAction="#onAddTestCase"/>
+                                        </HBox>
+
+                                        <HBox spacing="5" alignment="CENTER_LEFT">
+                                            <!-- Left side - Test control buttons -->
+                                            <Button fx:id="runButton" text="Run" onAction="#onRunTestCase"/>
+                                            <Button fx:id="removeButton" text="Remove" onAction="#onRemoveTestCase"/>
+                                            <Button fx:id="editTestCaseButton" text="Edit" onAction="#onEditTestCase"/>
+                                            <Button fx:id="upButton" text="Up" onAction="#onMoveUp"/>
+                                            <Button fx:id="downButton" text="Down" onAction="#onMoveDown"/>
+
+                                            <!-- Separator -->
+                                            <Separator orientation="VERTICAL"/>
+
+                                            <!-- Middle - Suite management -->
+                                            <Button fx:id="saveButton" text="Save Suite" onAction="#onSaveSuite"/>
+                                            <Button fx:id="loadButton" text="Load Suite" onAction="#onLoadSuite"/>
+                                            <Button fx:id="deleteSuiteButton" text="Delete Suite" onAction="#onDeleteSuite"/>
+                                            <ComboBox fx:id="suiteComboBox" promptText="Select Suite"/>
+
+                                            <!-- Spacer -->
+                                            <Region HBox.hgrow="ALWAYS"/>
+
+                                            <!-- Right side - Browser selection and report -->
+                                            <ComboBox fx:id="browserBox" promptText="Select Browser"/>
+                                            <Button fx:id="openReportButton" text="Open Report" onAction="#onOpenReport" disable="true"/>
+                                        </HBox>
+
+                                        <ListView fx:id="testCaseList" VBox.vgrow="ALWAYS"/>
+                                        <ProgressBar fx:id="progressBar" maxWidth="Infinity" visible="false"/>
+                                        <TextArea fx:id="logArea" prefRowCount="10"/>
+                                    </VBox>

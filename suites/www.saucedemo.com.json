@@ -1,0 +1,129 @@
+{
+  "testCases": [
+    {
+      "url": "https://www.saucedemo.com/",
+      "testType": "FUNCTIONAL",
+      "action": "Navigate"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "ID",
+      "locatorValue": "user-name",
+      "inputData": "standard_user"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "ID",
+      "locatorValue": "password",
+      "inputData": "secret_sauce"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "login-button"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "2000"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "XPATH",
+      "locatorValue": "//div[text()\u003d\u0027Sauce Labs Backpack\u0027]/ancestor::div[@class\u003d\u0027inventory_item\u0027]//button"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "XPath",
+      "locatorValue": "//*[@id\u003d\"shopping_cart_container\"]/a"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "checkout"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "ID",
+      "locatorValue": "first-name",
+      "inputData": "Mansour"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "ID",
+      "locatorValue": "last-name",
+      "inputData": "Atia"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "ID",
+      "locatorValue": "postal-code",
+      "inputData": "12345"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "1000"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "continue"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "finish"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "react-burger-menu-btn",
+      "inputData": ""
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "1000"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "ID",
+      "locatorValue": "logout_sidebar_link",
+      "inputData": ""
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory.html",
+      "testType": "PERFORMANCE",
+      "action": "Load Test"
+    },
+    {
+      "url": "https://www.saucedemo.com/",
+      "testType": "PERFORMANCE",
+      "action": "Stress Test"
+    },
+    {
+      "url": "https://www.saucedemo.com/",
+      "testType": "PERFORMANCE",
+      "action": "Spike Test"
+    },
+    {
+      "url": "https://www.saucedemo.com/",
+      "testType": "PERFORMANCE",
+      "action": "Endurance Test"
+    }
+  ]
+}

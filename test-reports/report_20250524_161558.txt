@@ -1,0 +1,77 @@
+AUTOMATED TEST EXECUTION REPORT
+
+EXECUTION SUMMARY
+-----------------
+Start Time    : 2025-05-24 16:15:58
+End Time      : 2025-05-24 16:16:21
+Duration      : 00:22 (mm:ss)
+
+TEST STATISTICS
+--------------
+Total Tests   : 22
+Passed        : 22
+Failed        : 0
+Success Rate  : 100.00%
+
+TEST RESULTS
+------------
+[PASS] Browser initialized: chrome
+[PASS] Navigation: https://www.saucedemo.com/
+[PASS] SendKeys action on: user-name
+[PASS] SendKeys action on: password
+[PASS] Click action on: login-button
+[PASS] Sleep: 2000ms
+[PASS] Click action on: //div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button
+[PASS] Click action on: //*[@id="shopping_cart_container"]/a
+[PASS] Click action on: checkout
+[PASS] SendKeys action on: first-name
+[PASS] SendKeys action on: last-name
+[PASS] SendKeys action on: postal-code
+[PASS] Sleep: 1000ms
+[PASS] Click action on: continue
+[PASS] Click action on: finish
+[PASS] Click action on: react-burger-menu-btn
+[PASS] Sleep: 1000ms
+[PASS] Click action on: logout_sidebar_link
+[PASS] Performance test completed for: https://www.saucedemo.com/inventory.html
+[PASS] Performance test completed for: https://www.saucedemo.com/
+[PASS] Performance test completed for: https://www.saucedemo.com/
+[PASS] Performance test completed for: https://www.saucedemo.com/
+
+ACTION DETAILS
+--------------
+[SendKeys (Type Text)] ID: user-name | Input: standard_user
+[SendKeys (Type Text)] ID: password | Input: secret_sauce
+[Click] ID: login-button
+[Click] XPATH: //div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button
+[Click] XPath: //*[@id="shopping_cart_container"]/a
+[Click] ID: checkout
+[SendKeys (Type Text)] ID: first-name | Input: Mansour
+[SendKeys (Type Text)] ID: last-name | Input: Atia
+[SendKeys (Type Text)] ID: postal-code | Input: 12345
+[Click] ID: continue
+[Click] ID: finish
+[Click] ID: react-burger-menu-btn
+[Click] ID: logout_sidebar_link
+Performance Test Results:
+URL: https://www.saucedemo.com/inventory.html
+Total Load Time: 153ms
+Time to First Byte: 9ms
+DOM Complete Time: 105ms
+Performance Test Results:
+URL: https://www.saucedemo.com/
+Total Load Time: 123ms
+Time to First Byte: 2ms
+DOM Complete Time: 81ms
+Performance Test Results:
+URL: https://www.saucedemo.com/
+Total Load Time: 121ms
+Time to First Byte: 7ms
+DOM Complete Time: 89ms
+Performance Test Results:
+URL: https://www.saucedemo.com/
+Total Load Time: 116ms
+Time to First Byte: 3ms
+DOM Complete Time: 66ms
+WebDriver closed
+

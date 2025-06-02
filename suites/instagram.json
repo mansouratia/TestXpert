@@ -1,0 +1,62 @@
+{
+  "testCases": [
+    {
+      "url": "https://www.instagram.com",
+      "testType": "FUNCTIONAL",
+      "action": "Navigate"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "NAME",
+      "locatorValue": "username",
+      "inputData": "Mansour"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "NAME",
+      "locatorValue": "password",
+      "inputData": "Password"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "XPATH",
+      "locatorValue": "//button[@type\u003d\u0027submit\u0027]"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "2000"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "testType": "PERFORMANCE",
+      "action": "Load Test"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "testType": "PERFORMANCE",
+      "action": "Stress Test"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "testType": "PERFORMANCE",
+      "action": "Spike Test"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "testType": "PERFORMANCE",
+      "action": "Endurance Test"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "testType": "SECURITY",
+      "action": "SendKeys (SQL Injection)",
+      "locatorType": "ANY",
+      "locatorValue": "ANY",
+      "inputData": "\u0027 OR \u00271\u0027\u003d\u00271"
+    }
+  ]
+}

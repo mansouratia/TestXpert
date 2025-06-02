@@ -1,0 +1,61 @@
+{
+  "testCases": [
+    {
+      "url": "https://www.google.com",
+      "testType": "FUNCTIONAL",
+      "action": "Navigate"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "SendKeys (Type Text)",
+      "locatorType": "NAME",
+      "locatorValue": "q",
+      "inputData": "Mansour Atia"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "1000"
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Click",
+      "locatorType": "XPath",
+      "locatorValue": "//*[@id\u003d\"Alh6id\"]/div[1]/div/ul/li[1]",
+      "inputData": ""
+    },
+    {
+      "testType": "FUNCTIONAL",
+      "action": "Sleep",
+      "inputData": "2000"
+    },
+    {
+      "url": "https://www.google.com",
+      "testType": "PERFORMANCE",
+      "action": "Load Test"
+    },
+    {
+      "url": "https://www.google.com",
+      "testType": "PERFORMANCE",
+      "action": "Stress Test"
+    },
+    {
+      "url": "https://www.google.com",
+      "testType": "PERFORMANCE",
+      "action": "Spike Test"
+    },
+    {
+      "url": "https://www.google.com",
+      "testType": "PERFORMANCE",
+      "action": "Endurance Test"
+    },
+    {
+      "url": "https://www.google.com",
+      "testType": "SECURITY",
+      "action": "SendKeys (SQL Injection)",
+      "locatorType": "ANY",
+      "locatorValue": "ANY",
+      "inputData": "\u0027 OR \u00271\u0027\u003d\u00271"
+    }
+  ]
+}
