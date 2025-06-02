@@ -1,81 +1,118 @@
-# TestXpert
+# TestXpert project
 
-**TestXpert** is a Java-based desktop application for generating and executing Selenium test cases through an intuitive graphical user interface (GUI). It streamlines test automation by allowing users to define test steps in plain language, generate executable Selenium code, and view live test execution with error handling and reporting.
+# 🧪 Bedaya Automation Framework
 
-## 🚀 Features
+**Bedaya** is a professional, modular, and user-friendly automation testing framework that enables testers to create, edit, and execute automated test cases through a rich graphical interface — all without writing code. Built using **Java, TestNG, Selenium**, and **JavaFX**, it supports **cross-browser execution**, dynamic UI, and customizable test flows.
 
-- GUI for writing test steps
-- Excel-driven keyword-to-Selenium translation
-- Test case code generation (Java + Selenium)
-- Automated test execution using ChromeDriver
-- Screenshot capture on failure
-- Test report generation
+---
 
-## 📂 Project Structure
+## 🚀 Key Features
 
-```
-TestXpert/
-├── src/main/java/         # Source code
-├── generated/             # Test output and screenshots
-├── docs/                  # Project documentation
-├── pom.xml                # Maven build file
+- 🖥 **Graphical Test Builder**: Intuitive JavaFX-based GUI lets users create and manage test steps easily.
+- 🌐 **Multi-Browser Support**: Choose from Chrome, Firefox, or Edge at runtime.
+- 🧩 **Dynamic Field Hints**: GUI shows only relevant input fields depending on selected action (e.g., URL for Navigate).
+- 🧠 **Smart Test Logic**: Built-in input validation and guidance for better usability.
+- 📂 **Modular Suite Management**:
+  - Save test cases in JSON format
+  - Load, edit, delete, and reorder them visually
+- 📑 **TestNG Integration**: Run functional test suites with TestNG and WebDriver.
+- 🧪 **Test Modes**: Support for Functional, Performance, and placeholder Security tests.
+
+---
+
+## 🧰 Tech Stack
+
+- Java 8+
+- JavaFX (GUI)
+- Selenium WebDriver
+- TestNG
+- Maven
+- JSON (for test suite storage)
+
+---
+
+## 📁 Project Structure
+
+```text
+Bedaya/
+├── src/
+│   ├── application/         # JavaFX app setup
+│   ├── controllers/         # GUI control logic
+│   ├── models/              # Test step data structure
+│   ├── runners/             # TestNG & WebDriver runners
+│   └── utils/               # Browser drivers, helpers, and JSON handlers
+├── resources/               # FXML UI layout and icons
+├── suits/                   # Saved JSON test case files
+├── pom.xml                  # Maven build file
 └── README.md
 ```
 
-## 🧱 Technologies Used
+---
 
-- Java (Swing for GUI)
-- Selenium WebDriver
-- Apache POI (Excel integration)
-- Maven (build automation)
+## ⚙️ Getting Started
 
-## 💻 Installation
-
-### Prerequisites
-
-- Java JDK 11+
-- Maven 3+
-- Chrome Browser
-- ChromeDriver (path should be configured in system)
-
-### Steps
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/TestXpert.git
-cd TestXpert
+git clone https://github.com/mansouratia/Bedaya-framework.git
+cd bedaya-automation-framework
+```
+
+### 2. Build the Project
+```bash
 mvn clean install
 ```
 
-### To Run:
-
-You can run the program from your IDE or by compiling:
-
+### 3. Run the Application
 ```bash
-mvn compile
-mvn exec:java -Dexec.mainClass="MainGUI"
+mvn javafx:run
 ```
 
-> Make sure `commands.xlsx` is in the correct path for translation.
+> 💡 **Requirements**: JDK 8 or above, Maven installed, and a compatible WebDriver (e.g., `chromedriver.exe`) in your system PATH.
 
-## 📊 Sample Output
+---
 
-- `generated_test_steps.txt`: Selenium code generated from input
-- `test_report.txt`: Summary of test execution
-- `screenshot_fail_*.png`: Screenshots of failures
+## 🧪 How to Use
 
-## 🧪 Testing
+1. **Launch the GUI**
+2. **Enter the Base URL**
+3. **Add Test Steps**
+   - Choose an action (e.g., Navigate, Click, InputText)
+   - Fields dynamically change based on action selected
+4. **Select Browser (Chrome, Firefox, Edge)**
+5. **Choose Test Mode (Functional / Performance / Security)**
+6. **Save, Load, Edit, Delete or Reorder Test Steps**
+7. **Click Execute** to run the test with live logging
 
-- Manual and automated testing included
-- Screenshots and logs are captured for verification
+---
 
-## 📁 Documentation
+## 📸 Screenshots
+Project Structure
+![Screenshot from 2025-05-24 15-14-54](https://github.com/user-attachments/assets/60ee6cfa-94f3-4f05-b225-4de8822df91d)
+GUI
+![Screenshot from 2025-05-24 15-16-46](https://github.com/user-attachments/assets/2f79066c-e13f-471c-8158-449743575cb0)
+Report
+![Screenshot from 2025-05-24 15-17-55](https://github.com/user-attachments/assets/5c82125d-53a1-464a-93d3-0d0c4b2159f4)
 
-See detailed project documentation in the [`docs/`](Docs) folder:
-- [Project Plan](Docs/PROJECT_PLAN.md)
-- [Requirements](Docs/REQUIREMENTS.md)
-- [System Design](Docs/SYSTEM_DESIGN.md)
-- [Testing & QA](Docs/TESTING.md)
-## 👤 Author
+---
+
+## 🗺 future Roadmap
+
+- [ ] Add Drag-and-Drop support for reordering steps
+- [ ] Allure based report generation
+- [ ] Expand Security Test Mode (SQL Injection simulation)
+- [ ] Mobile Web Testing support (Appium integration)
+- [ ] CI/CD integration support
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repo and open a pull request.
+
+---
+
+## 👨‍💻 Author
 
 - Manasour Atia
 -Youssef Nasser
